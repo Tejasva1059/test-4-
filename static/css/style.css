@@ -80,7 +80,7 @@ header
   background-color: rgb(255, 170, 0);
   color: #008fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
 }
@@ -110,12 +110,15 @@ header .logo img
 footer
 {
   background-color: #4CAF50;
-  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
   margin-top: 0.5rem;
+  background-color: rgb(255, 170, 0);
+  color: #008fff;
+  align-items: center;
+  padding: 1rem;
 }
 
 footer a
