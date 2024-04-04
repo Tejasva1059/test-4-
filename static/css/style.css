@@ -1,5 +1,6 @@
 /* General styles */
-body {
+body 
+{
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -7,22 +8,26 @@ body {
   padding: 0;
 }
 
-h1, h2 {
+h1, h2 
+{
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-a {
+a 
+{
   color: #4CAF50;
   text-decoration: none;
 }
 
-a:hover {
+a:hover 
+{
   text-decoration: underline;
 }
 
-button {
+button
+{
   background-color: #4CAF50;
   border: none;
   border-radius: 4px;
@@ -31,34 +36,40 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+button:hover 
+{
   background-color: #3e8e41;
 }
 
-button:disabled {
+button:disabled 
+{
   background-color: #ccc;
   cursor: not-allowed;
 }
 
-input[type="file"] {
+input[type="file"] 
+{
   margin-top: 1rem;
 }
 
-textarea {
+textarea
+{
   width: 100%;
-  min-height: 200px;
+  min-height: 50px;
   padding: 0.5rem;
   margin-top: 1rem;
 }
 
-.container {
+.container
+{
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
 }
 
 /* Header styles */
-header {
+header
+{
   background-color: #4CAF50;
   color: #fff;
   display: flex;
@@ -67,39 +78,45 @@ header {
   padding: 1rem;
 }
 
-header a {
+header a
+{
   color: #fff;
   text-decoration: none;
   margin-right: 1rem;
 }
 
-header .logo {
+header .logo
+{
   display: flex;
   align-items: center;
 }
 
-header .logo img {
+header .logo img
+{
   height: 3rem;
   margin-left: 1rem;
 }
 
 /* Footer styles */
-footer {
+footer
+{
   background-color: #4CAF50;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  margin-top: 2rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
 }
 
-footer a {
+footer a
+{
   color: #fff;
   text-decoration: none;
-  margin: 0 1rem;
+  margin: 0.1rem;
 }
 
-footer a:hover {
+footer a:hover
+{
   text-decoration: underline;
 }
