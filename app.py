@@ -1,15 +1,17 @@
 # FullStack Development done by UMANG GOSWAMI (22100BTCSAII11062) github.com/goswamiumang108
 
 
-from flask import Flask, request, jsonify, render_template
+from flask import *
+from webbrowser import open as open_url
 
-app = Flask(__name__)
+NotesNinja = Flask(__name__)
 
 
-@app.route('/')
+@NotesNinja.route('/')
 def index():
-    return render_template("index.html")
+    open_url(url="https://goswamiumang108.github.io/NotesNinja/", new=-1)
+    return "Redirecting to the WebApp... https://goswamiumang108.github.io/NotesNinja/"
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    NotesNinja.run(debug=True)

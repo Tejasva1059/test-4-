@@ -1,23 +1,26 @@
 /* General styles */
 body 
 {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: "Times New Roman", sans-serif;
+  font-size: 21px;
+  line-height: 1;
   margin: 0;
   padding: 0;
 }
 
 h1, h2 
 {
-  font-weight: normal;
+  font-weight: bolder;
+  font-family: "Times New Roman", sans-serif;
+  align-self: center;
+  font-size: 51px;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 a 
 {
-  color: #4CAF50;
+  color: #e61515;
   text-decoration: none;
 }
 
@@ -28,28 +31,32 @@ a:hover
 
 button
 {
-  background-color: #4CAF50;
+  background-color: #e61515;
   border: none;
   border-radius: 4px;
+  font-family: "Times New Roman", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-anchor: middle;
+  text-align: center;
   color: #fff;
-  padding: 0.5rem 1rem;
   cursor: pointer;
 }
 
 button:hover 
 {
-  background-color: #3e8e41;
+  background-color: #008fff;
 }
 
 button:disabled 
 {
-  background-color: #ccc;
+  background-color: #000000;
   cursor: not-allowed;
 }
 
 input[type="file"] 
 {
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 
 textarea
@@ -62,7 +69,7 @@ textarea
 
 .container
 {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -70,8 +77,8 @@ textarea
 /* Header styles */
 header
 {
-  background-color: #4CAF50;
-  color: #fff;
+  background-color: rgb(255, 170, 0);
+  color: #008fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -88,7 +95,9 @@ header a
 header .logo
 {
   display: flex;
-  align-items: center;
+  align-items: start;
+  margin: auto;
+  padding: 10%;
 }
 
 header .logo img
@@ -114,9 +123,13 @@ footer a
   color: #fff;
   text-decoration: none;
   margin: 0.1rem;
+  font-weight: bold;
+  font-size: medium;
+  font-family: "Times New Roman", sans-serif;
 }
 
 footer a:hover
 {
   text-decoration: underline;
+  font-weight: bold;
 }

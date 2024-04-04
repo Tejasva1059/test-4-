@@ -1,51 +1,90 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Notes Ninja</title>
-    <link rel="stylesheet" href="./static/css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="header-logo">
-          <img src="./static/images/logo.png" alt="Notes Ninja Logo" width="51">
-        </div>
-        <nav>
-
-            <button><a href="#">Home</a></button>
-            <button><a href="abouttheproduct.html">About the Project</a></button>
-            <button><a href="knowthecreators.html">Know the Creators</a></button>
-            <button><a href="https://github.com/goswamiumang108/VidyaAI/" target="_blank">GitHub Repository</a></button>
-        </nav>
-      </div>
-    </header>
-
-    <main>
-      <div class="container">
-        <h1>Welcome to Notes Ninja</h1>
-        <p>Upload a PDF file of a book and enter your syllabus topics to get concise study notes.</p>
-        <form id="upload-form">
-          <input type="file" id="pdf-file" accept=".pdf" required>
-          <label for="pdf-file">Select a PDF file</label><br>
-            <label for="syllabus-topics"></label>
-            <textarea id="syllabus-topics" placeholder="Enter your syllabus topics here" required></textarea><br>
-          <button type="submit">Generate Study Notes</button>
-        </form>
-        <div id="notes-container"></div>
-      </div>
-    </main>
-
-    <footer>
-      <div class="container">
-        <div class="social-media">
-          <a href="#"><img src="./static/images/facebook.png" alt="Facebook" width="51"></a>
-          <a href="#"><img src="./static/images/instagram.png" alt="Instagram" width="51"></a>
-          <a href="#"><img src="./static/images/whatsapp.png" alt="Whatsapp" width="51"></a>
-        </div>
-      </div>
-    </footer>
-
-    <script src="./static/js/script.js"></script>
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<title>Notes Ninja</title>
+		<link rel="icon" href="./static/images/logo.png">
+		<link rel="stylesheet" href="./static/css/style.css">
+	</head>
+	
+	
+	<body>
+		<header>
+			<div class="container">
+				<div class="header-logo">
+					<a href="index.html">
+						<img src="./static/images/logo.png" alt="Notes Ninja Logo" width="25">
+					</a>
+				</div>
+				
+				<nav>
+					<button>
+						<a href="AboutTheProduct.html">About the Project</a>
+					</button>
+					<button>
+						<a href="KnowTheCreators.html">The Project Creators</a>
+					</button>
+					<button>
+						<a href="https://github.com/goswamiumang108/NotesNinja/"
+						   target="_blank">GitHub Repository</a>
+					</button>
+				</nav>
+			</div>
+		</header>
+	
+	<main>
+		<div class="container">
+			<h1>Welcome to Notes Ninja</h1>
+			<p>Upload a OCRed PDF file of a big-fat book and enter your syllabus topics
+			   to get concise study notes</p>
+			
+			<form id="upload-form">
+				<input type="file" id="pdf-file" accept=".pdf" required>
+				<label for="pdf-file">Select a PDF file</label><br>
+				<label for="syllabus-topics"></label>
+				<textarea id="syllabus-topics"
+				          placeholder="Enter your syllabus topics here"
+				          required></textarea><br>
+				<button type="submit">Generate Study Notes</button>
+			</form>
+			
+			<div id="notes-container"></div>
+		</div>
+	</main>
+	
+	<footer>
+		<div class="container">
+			<div class="social-media">
+				<label>Share NotesNinja:</label>
+				<a target="_blank" href="#">
+					<img src="./static/images/facebook.png" alt="Facebook"
+					     width="25">
+				</a>
+				
+				<a target="_blank" href="#">
+					<img src="./static/images/instagram.png" alt="Instagram"
+					     width="25">
+				</a>
+				
+				<a target="_blank"
+				   href="https://api.whatsapp.com/send/?text=%22Hi!!%20I%20found%20this%2
+				   0amazing%20website%20*Notes%20Ninja*%20that%20helps%20university%20stu
+				   dents%20to%20make%20*concise%20notes*%20from%20the%20*big-fat%20books*
+				   %20and%20that%20too%20of%20*concerned%20syllabus*!!%20*Please%20check%
+				   20it%20out%20on%20URL*%20%20https://github.com/goswamiumang108/
+				   NotesNinja%22">
+					<img src="./static/images/whatsapp.png" alt="Whatsapp" width="25">
+				</a>
+				
+				<a target="_blank" href="#">
+					<img src="./static/images/link_icon.png" alt="Copy the Link"
+					     width="25">
+				</a>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="./static/js/script.js"></script>
+	</body>
 </html>
